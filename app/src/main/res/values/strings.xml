@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">KarimullaGroup</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_text1">Karimulla Group, which has been established in the year 1998,
+        has etched a remarkable name in the domain of manufacturing and supplying an immaculate range of Fencing Material.</string>
+    <string name="about_text2">We provide Barbed Wire, Chain Link, PVC Coated Wire and Welded Mesh in the fencing segment for
+        the fencing of Farms, Residential Bungalows, Farm Houses, Factories, Industrial areas, Warehouses, Animal Farms, Orchards,
+        Real Estate Plots, Residential Complexes, Schools, Parks, Gardens, Stadiums, Parking lots, Tennis Courts, Swimming Pools
+        and Sports Grounds. GI wire used for making Barbed Wire, Chain Link, PVC Coated Wire and Welded Mesh is of high quality
+        and consistency in terms of zinc coating, and designed to withstand the load in respective applications.</string>
+    <string name="about_text3">We follow strict quality control measures that help us to serve clients in best
+        of their satisfaction. Inspections are carried out under the supervision of experienced engineers on a daily basis
+        ensuring that products are high on standard.</string>
+    <string name="title_activity_contact_us">Map</string>
+    <string name="title_activity_contactus">Map</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DealerLoginActivity">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="113dp"
+        android:src="@drawable/user"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="96dp" />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dealer Login"
+        android:layout_toRightOf="@id/img"
+        android:layout_marginTop="118dp"
+        android:textSize="25sp"
+        android:textColor="#52a14d"
+        android:autoSizeTextType="uniform"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/dealer_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dealer Code"
+        android:layout_below="@id/text"
+        android:layout_margin="15dp"
+        android:background="@drawable/border"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@id/dealer_code"
+        android:layout_margin="15dp"
+        android:background="@drawable/border"/>
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signin"
+        android:background="#969609"
+        android:layout_below="@id/password"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an Account?"
+        android:layout_below="@id/signin"
+        android:textSize="15sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Register Here"
+        android:layout_below="@id/signin"
+        android:layout_toRightOf="@id/text1"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#F74F08"/>
+
+
+
+
+</RelativeLayout>

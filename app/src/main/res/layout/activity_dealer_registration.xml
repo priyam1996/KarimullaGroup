@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DealerRegistration">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="58dp"
+        android:src="@drawable/user"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="58dp" />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dealer Registration"
+        android:layout_toRightOf="@id/img"
+        android:textSize="25sp"
+        android:textColor="#52a14d"
+        android:autoSizeTextType="uniform"
+        android:layout_marginTop="3dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/company_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:hint="Company Name"
+        android:background="@drawable/border"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/tin_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/company_name"
+        android:hint="TIN Number"
+        android:background="@drawable/border"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <EditText
+        android:id="@+id/propietor_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tin_number"
+        android:hint="Proprietor Name"
+        android:background="@drawable/border"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/mobile_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/propietor_name"
+        android:hint="Mobile Number"
+        android:background="@drawable/border"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <EditText
+        android:id="@+id/dealer_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mobile_number"
+        android:hint="Dealer Code"
+        android:background="@drawable/border"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dealer_code"
+        android:hint="Password"
+        android:background="@drawable/border"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <EditText
+        android:id="@+id/company_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:hint="Comapny Address"
+        android:lines="6"
+        android:background="@drawable/border"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/home_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/company_address"
+        android:hint="Home Address"
+        android:lines="6"
+        android:background="@drawable/border"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <EditText
+        android:id="@+id/date_of_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_address"
+        android:hint="Date Of Birth"
+        android:background="@drawable/border"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/marriage_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_of_birth"
+        android:hint="Marriage Date"
+        android:background="@drawable/border"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/marriage_date"
+        android:text="SignUp"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="#969609"
+        />
+
+
+</RelativeLayout>
+</ScrollView>
