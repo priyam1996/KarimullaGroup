@@ -46,7 +46,7 @@
 
         <activity
             android:name=".ContactUs"
-            android:label="@string/title_activity_contactus"></activity>
+            android:label="@string/title_activity_contactus" />
     </application>
 
 </manifest>
