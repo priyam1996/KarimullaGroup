@@ -47,6 +47,7 @@
         <activity
             android:name=".ContactUs"
             android:label="@string/title_activity_contactus" />
+        <activity android:name=".Products"></activity>
     </application>
 
 </manifest>
