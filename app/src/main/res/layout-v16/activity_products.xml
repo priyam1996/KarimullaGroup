@@ -48,7 +48,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/audiowide"
-                android:text="TATA Barbed Wire"
+                android:text="@string/tata_barbed_wire"
                 android:textColor="#302b2b"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -82,7 +82,7 @@
                 android:layout_centerHorizontal="true"
                 android:background="#c40a0a"
                 android:textColor="#ffffff"
-                android:text="More"
+                android:text="@string/more"
                 android:fontFamily="@font/lato"
                 android:layout_marginTop="5sp"
                 android:layout_marginBottom="10sp"/>
@@ -114,7 +114,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/audiowide"
-                android:text="TATA Chain Link"
+                android:text="@string/tata_chain_link"
                 android:textColor="#302b2b"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -180,7 +180,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/audiowide"
-                android:text="TATA GI Wires"
+                android:text="@string/tata_gi_wires"
                 android:textColor="#302b2b"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -234,7 +234,7 @@
         app:cardBackgroundColor="#8888f5"
         app:cardElevation="3dp"
         app:cardCornerRadius="5dp"
-        android:layout_below="@id/chain_card">
+        android:layout_below="@id/gi_card">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -246,7 +246,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/audiowide"
-                android:text="TATA Solar Power Fence"
+                android:text="@string/tata_solar_power_fence"
                 android:textColor="#302b2b"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -313,37 +313,37 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true">
 
-                <TextView
-                    android:id="@+id/product5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/audiowide"
-                    android:text="@string/tata_g_i"
-                    android:textColor="#302b2b"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:layout_marginLeft="4sp"
-                    android:layout_marginTop="10sp" />
-                <TextView
-                    android:id="@+id/product5_sub"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="#077DCF"
-                    android:layout_toRightOf="@id/product5"
-                    android:textColor="#ffffff"
-                    android:textSize="20sp"
-                    android:layout_marginTop="10sp"
-                    android:layout_marginLeft="4sp"
-                    android:text="@string/ayush_text"/>
-                <TextView
-                    android:id="@+id/product5_sub1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/product5_sub"
-                    android:textColor="#302b2b"
-                    android:textSize="20sp"
-                    android:layout_marginTop="10sp"
-                    android:text="Wires"/>
+            <TextView
+                android:id="@+id/product5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/audiowide"
+                android:text="@string/tata_g_i"
+                android:textColor="#302b2b"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="4sp"
+                android:layout_marginTop="10sp" />
+            <TextView
+                android:id="@+id/product5_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#077DCF"
+                android:layout_toRightOf="@id/product5"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="4sp"
+                android:text="@string/ayush_text"/>
+            <TextView
+                android:id="@+id/product5_sub1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/product5_sub"
+                android:textColor="#302b2b"
+                android:textSize="20sp"
+                android:layout_marginTop="10sp"
+                android:text="Wires"/>
             </RelativeLayout>
 
             <ImageView
