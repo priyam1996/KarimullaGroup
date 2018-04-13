@@ -9,7 +9,7 @@
     <string name="action_settings">Settings</string>
     <string name="about_text1">Karimulla Group, which has been established in the year 1998,
         has etched a remarkable name in the domain of manufacturing and supplying an immaculate range of Fencing Material.</string>
-    <string name="about_text2">We provide Barbed Wire, Chain Link, PVC Coated Wire and Welded Mesh in the fencing segment for
+    <string name="about_text2">\t \t \t We provide Barbed Wire, Chain Link, PVC Coated Wire and Welded Mesh in the fencing segment for
         the fencing of Farms, Residential Bungalows, Farm Houses, Factories, Industrial areas, Warehouses, Animal Farms, Orchards,
         Real Estate Plots, Residential Complexes, Schools, Parks, Gardens, Stadiums, Parking lots, Tennis Courts, Swimming Pools
         and Sports Grounds. GI wire used for making Barbed Wire, Chain Link, PVC Coated Wire and Welded Mesh is of high quality
@@ -19,4 +19,18 @@
         ensuring that products are high on standard.</string>
     <string name="title_activity_contact_us">Map</string>
     <string name="title_activity_contactus">Map</string>
+    <string name="todo">TODO</string>
+    <string name="karimulla">Karimulla Group</string>
+    <string name="barbed_wire">Barbed Wire fences are much cheaper, easier and quicker to build than alternatives such as timber rails and to restrain cattles within the limit.</string>
+    <string name="chain_link">chain link fencing is one of the most commonly used due to the many advantages it has over other fencing types.</string>
+    <string name="gi_wires">Tata steel produces high quality and long lasting GI Wire for Grape Farming, Tomato Farming and Creeper Vegetable Farming.</string>
+    <string name="solar_power">These solar fencings are made with a purpose of providing protection from unwanted entries at the animals and Person’s habitat.</string>
+    <string name="ayush">G.I अAyush Wires are much cheaper, easier and quicker to build than alternatives such as timber rails and to restrain cattles within the limit.</string>
+    <string name="more">More</string>
+    <string name="tata_barbed_wire">TATA Barbed Wire</string>
+    <string name="tata_chain_link">TATA Chain Link</string>
+    <string name="tata_gi_wires">TATA GI Wires</string>
+    <string name="tata_solar_power_fence">TATA Solar Power Fence</string>
+    <string name="ayush_text">अAyush </string>
+    <string name="tata_g_i">TATA G.I </string>
 </resources>
